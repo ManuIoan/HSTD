@@ -389,6 +389,7 @@ nav span{
 .writ{
     display: flex;
     flex-direction: column;
+    
 }
 .content{
     width: 100%;
@@ -415,6 +416,9 @@ margin: 30px 0px;
 width: 80px;
 
 
+}
+.content{
+    background-color: red;
 }
 .imgbac img{
     width: 100px;
@@ -555,8 +559,8 @@ nav span{
     justify-content: center;
     align-items: center;
 }
-.form a{
-    margin-top: 10px;
+.form .no3{
+    margin-top: 12px;
 }
 .projects .mar{
 font-size: 3.5rem;
