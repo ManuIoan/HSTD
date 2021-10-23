@@ -56,3 +56,12 @@ text-align: left;
     background-color: var(--n3);
     color: white;
 }
+
+@media (min-width:300px) and (max-width:600px)
+{
+    .cs1 .f100{
+        width: 100vw;
+        height: 100vh;
+
+    }
+} 
