@@ -5,7 +5,8 @@
     box-sizing: border-box;
     --n1: #282A36;
     --n2: #373B4B;
-    --n3 : #3459DA;
+    /*--n3 : #3459DA;*/
+    --n3 : red;
 }
 body{
     background-color: #393E49;
