@@ -328,6 +328,14 @@ SKILLS*/
       height: auto;
       margin: 0px;
   }
+  .first .imgf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
   .projects{
       height: 550px;
       padding: 0px;
@@ -494,6 +502,14 @@ li{
       height: auto;
       margin: 0px;
   }
+  .first .imgf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
   .projects{
       height: 550px;
       padding: 0px;
