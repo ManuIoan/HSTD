@@ -38,6 +38,13 @@ main{
     align-items: center;
     
 }
+.imgbac{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
 .pres
 {
     width: 100%;
@@ -110,6 +117,11 @@ nav ul .rep{
     width: 65%;
     
     
+}
+.skt p{
+    font-size: 80px;
+    padding-bottom: 40px;
+
 }
 .photo{
     height:100%;
@@ -277,7 +289,7 @@ SKILLS*/
 .skills p{
     font-family:'Architects Daughter', cursive; 
     color: var(--n3);
-    font-size: 2rem;
+    font-size: 70px;
     text-align: center;
 }
 .skills
@@ -379,6 +391,7 @@ main{
     align-items: center;
     width: 100%;
 }
+
 .abt{
     
 }
@@ -447,21 +460,30 @@ margin: 30px 0px;
 
 }
 .imgfro img{
-width: 80px;
+width: 50px;
 
 
 }
+.imgbac img{
+    width: 60px;
+    
+    
+    }
 .content{
     background-color: red;
 }
 .imgbac img{
-    width: 100px;
+    width: 60px;
+    height: auto;
 }
 li{
     margin-left: 10px;
     margin-right: 0px;
 }
-
+.skt p{
+    padding-bottom: 0px;
+    font-size: 50px;
+}
 
 }
 
@@ -614,11 +636,20 @@ margin: 30px 0px;
 
 }
 .imgfro img{
-width: 100px;
+width: 70px;
 
 
 }
+.imgbac img{
+    width: 80px;
+    height: auto;
+    
+    
+    }
+    .skt p{
+        font-size: 50px;
 
+    }
 
 }
 
@@ -663,6 +694,21 @@ width: 100px;
   .projects{
       padding: 10px;
 }
+.imgfro img{
+    width: 80px;
+    
+    
+    }
+    .imgbac img{
+        width: 80px;
+        height: auto;
+        
+        
+        }
+        .skt p{
+            font-size: 60px;
+    
+        }
 
 }
 
@@ -708,6 +754,23 @@ width: 100px;
       padding: 10px;
   }
 
+  .imgfro img{
+    width: 80px;
+    
+    
+    }
+    
+    .imgbac img{
+        width: 80px;
+        height: 100%;
+        
+        
+        }
+        .skt p{
+            font-size: 60px;
+    
+        }
+
  
 }
 
@@ -740,7 +803,10 @@ width: 100px;
   .projects{
       height: 500px;
   }
-  
+  .skt p{
+    font-size: 60px;
+
+}
 
 
 }   
@@ -771,7 +837,10 @@ width: 100px;
       height: 500px;
   }
   
+  .skt p{
+    font-size: 70px;
 
+}
 
 
 }
@@ -803,7 +872,10 @@ width: 100px;
 .projects{
     height: 500px;
 }
+.skt p{
+    font-size: 80px;
 
+}
 }
 
 
@@ -834,8 +906,11 @@ width: 100px;
     height: 200px;
       border-radius: 50%;
   }
-}
+  .skt p{
+    font-size: 70px;
 
+}
+}
 
 
 
