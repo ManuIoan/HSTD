@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(216, 210, 201);
+}
+main{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.all{
+    height: 95%;
+    width: 90%;    
+    border: 1px solid rgb(147, 108, 108);
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tit{
+    padding-top: 2rem;
+}
+
+.tit p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(67, 61, 51);
+}
+.sava{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+
+}
+.cara{
+    padding-top: 0rem;
+}
+ .nr{
+    width: 8%;
+    display: flex;
+    justify-content: end;
+}
+.tile{
+    display: flex;
+    font-weight: 800;
+}
+.dscr{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(67, 61, 51);
+}
+.msg{
+    margin-left: 1rem;
+
+    margin-top: 0.7rem;
+color: rgb(228, 50, 50);
+font-weight: 800;
+
+}
+
+
+@media(min-width:900px)
+{
+    .all{
+        width: 70%;
+    }
+}
+
+@media(min-width:1500px)
+{
+    .all{
+        width: 50%;
+    }
+}

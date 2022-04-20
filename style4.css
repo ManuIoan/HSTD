@@ -171,7 +171,7 @@ h2{
     color: #fff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8rem;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     font-weight: bold; 
 }
 
@@ -189,6 +189,16 @@ Projects
     
     
 }
+.op{
+    font-size: 2rem;
+    margin-top: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #3459DA;
+}
+.sid{
+    height: 600px; 
+}
 .projects .mar{
     color: var(--n3);
     font-size: 5rem;
@@ -198,6 +208,34 @@ Projects
     
     
 }
+
+.opr1{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.uno{
+    width: 60%;
+}
+.all3{
+    display: flex;
+    margin-right: 50px;
+}
+.m2{
+    margin-left: 50px;
+}
+.m1{
+    margin-left: 50px;
+    width: 100px;
+}
+.m2 .aha{
+    font-size: 1rem;
+}
+.m1 .aha{
+    font-size: 1rem;
+}
+
+
 .projects .first{
     display: flex;
 }
@@ -227,7 +265,7 @@ margin-bottom: 20px;
     align-items: center;
 }
 .first .imgf img{
-    width: 100%;
+    width: 400px;
     height: auto;
     
     
@@ -358,7 +396,7 @@ SKILLS*/
   }
   
   .pres{
-      padding: 100px;
+      padding: 20px;
       
      
       height: 400px;
@@ -381,7 +419,7 @@ SKILLS*/
     width: 100%;
     
     margin: 0px;
-    padding: 0px;
+    padding: 2rem;
 }
 main{
     margin: 0px;
@@ -473,7 +511,7 @@ width: 50px;
     
     }
 .content{
-    background-color: red;
+    
 }
 .imgbac img{
     width: 60px;
@@ -487,7 +525,43 @@ li{
     padding-bottom: 0px;
     font-size: 50px;
 }
+.op{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opr1{
+    flex-direction: column;
+}
+.opr1 .uno{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 
+}
+.opr1 .all3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.m2{
+    margin-left: 10px;
+}
+.m1{
+    margin-left: 0px;
+}
+
+.alts{
+    height: 100%;
+    margin-bottom: 1rem;
+    
+}
+.sec{
+    padding: 0px 2rem;
+}
 }
 
 
@@ -526,7 +600,7 @@ height: auto;
 margin: 0px;
 }
 .projects{
-  height: 550px;
+  height: 600px;
   padding: 0px;
   margin: 0px;
 }
@@ -538,7 +612,7 @@ margin: 0px;
 
 }
 .projects{
-  height: 650px;
+  height: 750px;
   
   
 }
@@ -643,6 +717,44 @@ height: auto;
     font-size: 40px;
 
 }
+.op{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opr1{
+    flex-direction: column;
+}
+.opr1 .uno{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.opr1 .all3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.m2{
+    margin-left: 10px;
+}
+.m1{
+    margin-left: 0px;
+}
+
+.alts{
+    height: 100%;
+    margin-bottom: 1rem;
+    
+}
+.sec{
+    padding: 0px 2rem;
+}
+
 
 }
 
@@ -690,7 +802,9 @@ height: auto;
     margin: 0px;
 }
   .projects{
-      height: 550px;
+      
+      height: 600px;
+      min-height: 100%;
       padding: 0px;
       margin: 0px;
   }
@@ -702,7 +816,8 @@ height: auto;
     
   }
   .projects{
-      height: 650px;
+    min-height: 100%;
+      height: 730px;
       
       
 }
@@ -808,6 +923,49 @@ width: 70px;
 
     }
 
+
+
+    .op{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .opr1{
+        flex-direction: column;
+    }
+    .opr1 .uno{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .opr1 .all3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .m2{
+        margin-left: 10px;
+    }
+    .m1{
+        margin-left: 0px;
+    }
+
+    .alts{
+        height: 100%;
+        margin-bottom: 1rem;
+        
+    }
+    .sec{
+        padding: 0px 2rem;
+    }
+
+
+
+
 }
 
 
@@ -865,6 +1023,15 @@ width: 70px;
         .skt p{
             font-size: 60px;
     
+        }
+
+        .alts{
+            height: 100%;
+            margin-bottom: 1rem;
+            
+        }
+        .sec{
+            padding: 0px 2rem;
         }
 
 }
@@ -930,7 +1097,14 @@ width: 70px;
         .first .aboutf{
             margin: 0px 30px 30px 30px;
         }
-
+        .alts{
+            height: 100%;
+            margin-bottom: 1rem;
+            
+        }
+        .sec{
+            padding: 0px 2rem;
+        }
 
  
 }
@@ -968,6 +1142,14 @@ width: 70px;
     font-size: 60px;
 
 }
+.alts{
+    height: 100%;
+    margin-bottom: 1rem;
+    
+}
+.sec{
+    padding: 0px 2rem;
+}
 
 
 }   
@@ -1001,6 +1183,14 @@ width: 70px;
   .skt p{
     font-size: 70px;
 
+}
+.alts{
+    height: 100%;
+    margin-bottom: 1rem;
+    
+}
+.sec{
+    padding: 0px 2rem;
 }
 
 
@@ -1089,7 +1279,8 @@ width: 70px;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    background-color: var(--n1);
+    /*background-color: var(--n1);
+*/
 }
 
 
@@ -1210,3 +1401,11 @@ a:hover{
   .bg{
       background-color:var(--n1);
   }
+  .alts{
+    height: 100%;
+    margin-bottom: 3rem;
+    
+}
+.sec{
+    padding: 0px 2rem;
+}
