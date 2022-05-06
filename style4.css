@@ -397,6 +397,8 @@ SKILLS*/
       margin: 0px;
   }
   
+  
+  
   .pres{
       padding: 20px;
       
@@ -564,6 +566,9 @@ li{
 .sec{
     padding: 0px 2rem;
 }
+.sid{
+    height: 900px;
+}
 }
 
 
@@ -605,6 +610,9 @@ margin: 0px;
   height: 600px;
   padding: 0px;
   margin: 0px;
+}
+.sid{
+    height: 700px;
 }
 
 .pres{
@@ -810,6 +818,9 @@ height: auto;
       padding: 0px;
       margin: 0px;
   }
+  .sid{
+    height: 700px;
+  }
   
   .pres{
       padding: 20px;
@@ -1003,7 +1014,9 @@ width: 70px;
   .projects{
       height: 550px;
   }
-  
+  .sid{
+    height: 650px;
+  }
   .pres{
       padding: 10px;
       height: 370px;
@@ -1071,7 +1084,9 @@ width: 70px;
   .projects{
       height: 500px;
   }
-  
+  .sid{
+    height: 600px;
+  }
   .pres{
       padding: 10px;
       
@@ -1140,6 +1155,9 @@ width: 70px;
   .projects{
       height: 500px;
   }
+  .sid{
+    height: 600px;
+  }
   .skt p{
     font-size: 60px;
 
@@ -1159,6 +1177,8 @@ width: 70px;
 
 @media (max-width:1000px) and (min-width:850px)
 {
+
+    
     body{
        
     }
@@ -1180,6 +1200,9 @@ width: 70px;
   }
   .projects{
       height: 500px;
+  }
+  .sid{
+    height: 600px;
   }
   
   .skt p{
@@ -1225,6 +1248,9 @@ width: 70px;
 .projects{
     height: 500px;
 }
+.sid{
+    height: 600px;
+  }
 .skt p{
     font-size: 80px;
 
@@ -1235,6 +1261,7 @@ width: 70px;
 
 @media(max-width:1300px) and (min-width: 1150px)
 {
+    
    body{
        
    }
